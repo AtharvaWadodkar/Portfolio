@@ -2,41 +2,72 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333; /* Text color matches the header background color */
+    background-color: #f5f5f5; 
+    color: #333; 
 }
 
 header {
-    background-color: #333;
+    background: linear-gradient(to right, #3498db, #2c3e50); 
     color: #fff;
     text-align: center;
+    padding: 40px 0; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px; 
+    height: 150px; 
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    padding: 10px 15px;
+    background: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background: #2980b9;
+    color: #fff;
 }
 
 section {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
     background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
-    cursor: pointer; /* Added cursor property for the section */
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 section:hover {
-    transform: scale(1.02);
+    transform: translateY(-5px); 
 }
 
 a {
-    color: #007BFF;
+    color: #3498db;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
-    cursor: pointer; /* Added cursor property for links */
 }
 
 a:hover {
-    color: #0056b3; /* Slightly darker blue on hover */
+    color: #2980b9;
 }
 
 ul {
@@ -46,7 +77,18 @@ ul {
 
 footer {
     text-align: center;
-    padding: 20px;
-    background-color: #333;
+    padding: 40px 0;
+    background: linear-gradient(to right, #3498db, #2c3e50);
+    color: #fff;
+}
+
+.contact-info p {
+    cursor: default;
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to right, #3498db, #2c3e50);
     color: #fff;
 }
