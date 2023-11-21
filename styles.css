@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333; /* Text color matches the header background color */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer; /* Added cursor property for the section */
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer; /* Added cursor property for links */
+}
+
+a:hover {
+    color: #0056b3; /* Slightly darker blue on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
